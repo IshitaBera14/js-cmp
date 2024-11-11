@@ -83,10 +83,18 @@ let num1 , num2 , num3
 
 num1 = num2 = num3 = 2 + 2
 
-let gameCounter = 100
-gameCounter++;
-console.log(gameCounter)
+let x = 100
+x++;
+console.log(x)
 
-let gameCounter2 = 100
-gameCounter2++;
-console.log(gameCounter2)
+let y = 100
+++y;
+console.log(y)
+
+let z = 100
+--z;
+console.log(z)
+
+let w = 100
+w--;
+console.log(w)
